@@ -96,9 +96,15 @@ header nav a {
   color: black;
   text-decoration: none;
   vertical-align: middle;
-  border: 1px solid gray;
   height: 50px;
   width: 150px;
   padding: 15px;
   text-align: center;
+  background-position: right;
+}
+header nav .contact {
+  background: none;
+}
+header nav a:hover {
+  background: #d3d3d3;
 }
