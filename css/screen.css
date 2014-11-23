@@ -58,11 +58,27 @@ table {
 body {
   background-image: url("/img/home_bg.png");
   background-repeat: repeat;
+  font-family: 'Lato', sans-serif;
 }
 
 .intro {
-  width: 80%;
-  margin: 100px 10% 100px 10%;
+  width: 50%;
+  margin: 100px 25% 100px 25%;
+  background: white;
+  height: 300px;
+  border-radius: 25px;
+  padding-top: 25px;
+}
+.intro h2 {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Changa One', cursive;
+}
+.intro p {
+  margin: 50px 20%;
+  width: 60%;
+  font-size: 20px;
+  line-height: 1.5em;
 }
 
 header {
@@ -74,12 +90,12 @@ header {
 }
 header h1 {
   color: white;
-  font-size: 36px;
+  font-size: 48px;
   float: right;
   line-height: 400px;
   margin-right: 10%;
   font-family: 'Changa One', cursive;
-  letter-spacing: 4px;
+  letter-spacing: 6px;
 }
 header nav {
   background: white;
@@ -90,7 +106,6 @@ header nav {
   font-size: 0;
 }
 header nav a {
-  font-family: 'Lato', sans-serif;
   font-size: 18px;
   display: inline-block;
   color: black;
